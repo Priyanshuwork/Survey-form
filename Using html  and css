@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    
+        body {
+            background-size: cover;
+            background-image: url(https://image.freepik.com/free-vector/stream-binary-code-design_53876-97406.jpg);
+            backface-visibility: hidden;
+        }
+        
+        h1 {
+            width: 100%;
+            height: auto;
+            font-size: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            align-items: center;
+            margin-top: 10%;
+            font-weight: 100;
+            color: whitesmoke;
+        }
+        
+        h2 {
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%;
+            font-weight: 100;
+            color: rgb(236, 208, 198);
+        }
+        
+        .textone {
+            width: 90%;
+            padding: 12px;
+        }
+        
+        .survey-form {
+            width: 40%;
+            height: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            border: rgb(1, 12, 70);
+            border-style: solid;
+            border-radius: 5px;
+            border-bottom: solid;
+            border-right: solid;
+            border-left: solid;
+            border-top: solid;
+            color: white;
+            opacity: 0.93;
+            box-sizing: content-box;
+            font-weight: 500;
+            font-size: xx-large;
+            position: sticky;
+            background-color: rgb(12, 12, 158);
+            margin: 29%;
+            padding: 4%;
+            object-fit: contain;
+            margin-top: -40px;
+        }
+        
+        .button {
+            opacity: 100%;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            align-items: center;
+            padding: 2% 35%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+        .button:hover {
+            background-color: darkgreen;
+        }
+        
+        .interest {
+            padding-right: 5%;
+            padding-bottom: 1%;
+        }
+        
+        textarea {
+            width: 40%;
+            padding: 6px;
+        }
+    </style>
+    </head>
+
+<body>
+    <h1>Survey form</h1>
+    <h2>Made by me</h2>
+    <br><br><br>
+    <div>
+        <form class="survey-form">
+            <label class="l"><b>Name</b></label><br>
+            <input type="text" size="70" height="100px" width="100px" placeholder="Name" required><br>
+            <label><b>College</b></label><br>
+            <input type="text" size="70" height="100px" width="100px" placeholder="Oxford" required><br>
+            <label><b>Email</b></label><br>
+            <input type="email" size="70" height="100px" width="100px" placeholder="default01@gmail.com" required><br>
+            <label><b>Degree</b></label><br>
+            <input type="text" size="70" height=100% width="100px" placeholder="B.tech" required><br>
+            <br><br><br>
+            <label><b>Courses you would like</b></label><br>
+            <input type="checkbox">
+            <label>C++</label><br>
+            <input type="checkbox" height="100%">
+            <label>Python</label><br>
+            <input type="checkbox">
+            <label>Java</label><br>
+            <input type="checkbox">
+            <label>HTML</label><br>
+            <input type="checkbox">
+            <label>CSS</label><br>
+            <input type="checkbox">
+            <label>Javascript</label><br>
+            <input type="checkbox">
+            <label>Digital marketing</label><br><br><br>
+            <lable>Any other</lable>
+            <textarea name="message" rows="3" cols="70"></textarea><br><br>
+            <label>Date</label>
+            <input type="date"><br><br>
+
+            <label>Age</label><br>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br>
+            <label>Interested?</label><br>
+            <select name="Intersted" class="interest">
+            <option value="YES">Yes</option>
+            <option value="No">No</option>
+            </select>
+            <br><br><br>
+            <input type="submit" value="Submit" class="button"><br><br><br>
+
+
+        </form>
+
+</body>
+
+</html>
